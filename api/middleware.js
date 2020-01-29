@@ -1,4 +1,4 @@
-const userThing = require('../hub/users-model.js');
+const userThing = require('../users/usersModel.js');
 const bcrypt = require('bcryptjs');
 
 function restricted(req, res, next) {
